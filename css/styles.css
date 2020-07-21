@@ -23,17 +23,19 @@ p {
   color: #5c5c5c;
 }
 
-/* Headings */
-.heading-lg {
-  color: #fff;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 730;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
+/* Title Section */
+
 
 #title {
   background-color: #ff4c68;
+}
+
+#title h1 {
+  color: #fff;
+
+  font-weight: 730;
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
 /* Navigation Bar */
@@ -185,9 +187,13 @@ p {
 
 /* Responsive Breakpoints */
 
-@media (max-width:1028px) {
+@media (max-width: 575.98px) {
   #title {
     text-align: center;
+  }
+
+  #title h1 {
+    font-size: 10px;
   }
 
   .title-image {
@@ -195,4 +201,71 @@ p {
     transform: rotate(0);
 
   }
+
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  #title {
+    text-align: center;
+  }
+
+  #title h1 {
+    font-size: 20px;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+
+  }
+
+
+  #testimonials h2 {
+    font-size: 20px;
+  }
+
+  #pricing {
+    padding: 5%;
+  }
+
+  #pricing h2 {
+    font-size: 2.2rem;
+  }
+
+  #cta h3 {
+    font-size: 1.8rem;
+
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  #title {
+    text-align: center;
+  }
+
+
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+
+  }
+
+  #testimonials h2 {
+    font-size: 30px;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  #title h1 {
+    font-size: 2.2rem;
+  }
+
+
+
+
 }
