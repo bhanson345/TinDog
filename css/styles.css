@@ -189,8 +189,8 @@ p {
 
 
 
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
+/* Small devices */
+@media (max-width: 688px) {
   #title {
     text-align: center;
   }
@@ -224,8 +224,8 @@ p {
   }
 }
 
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
+/* Medium devices */
+@media (max-width: 992px) {
   #title {
     text-align: center;
   }
@@ -243,8 +243,8 @@ p {
   }
 }
 
-/* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
+/* Large devices */
+@media (max-width: 1312px) {
   #title h1 {
     font-size: 2.2rem;
   }
